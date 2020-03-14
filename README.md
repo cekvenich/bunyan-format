@@ -1,3 +1,7 @@
+
+Minor fork for small edits, I forgot why
+
+
 # bunyan-format [![build status](https://secure.travis-ci.org/thlorenz/bunyan-format.png)](http://travis-ci.org/thlorenz/bunyan-format)
 
 Writable stream that formats bunyan records that are piped into it
