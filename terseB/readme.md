@@ -5,7 +5,7 @@ I noticed my log files were getting large. Also, I need loggin in each file. So 
 If node env is 'NODE_ENV=production' it will log only above INFO as JSON.
 Else you get all w/ CLI.
 
-eg: `NODE_ENV=production node index.js`
+eg: `env NODE_ENV=production node index.js`
 
 Note: If you don't set above during DEV, ** you won't see the logs! **
 
@@ -24,22 +24,8 @@ Result: 2 lines to set up logging, import and a decaration. In .js don't use `:a
  that is .ts syntax.
 
 
-Note 2: avoid console.log
 
-
-## Performance mode for Express
+#### Performance mode for Express
 
 - http://expressjs.com/en/advanced/best-practice-performance.html#set-node_env-to-production
 
-
-/etc/systemd/system/myservice.service
-
-```
-    Environment=NODE_ENV=production
-
-```
-
-
-## Notes
-
-- update mkdirp, but that needs to be removed after mv updates
