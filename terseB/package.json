@@ -13,7 +13,7 @@
     "mkdirp": "^0.5.4"
   },
   "devDependencies": {
-    "@types/node": ">=13.13.1",
+    "@types/node": ">=13.13.2",
     "mkdirp": "^0.5.4"
   }
 }
